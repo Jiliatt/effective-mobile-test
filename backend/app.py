@@ -4,7 +4,7 @@ class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
         if self.path == "/":
             status = 200
-            body = b"Hello from Effective Mobile!\n"
+            body = b"BROKWOEROKSODFOOSDFKOSKORKEAOKROVKEOSHello from Effective Mobile!\n"
         elif self.path == "/health":
             status = 200
             body = b"ok\n"
